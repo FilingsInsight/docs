@@ -25,7 +25,7 @@ const config: Config = {
 
   // trailingSlash: false,
   // // 커스텀 도메인 사용 시:
-  // deploymentBranch: 'gh-pages',
+  deploymentBranch: 'gh-pages',
   // scripts: [],
 
   // Even if you don't use internationalization, you can use this field to set
