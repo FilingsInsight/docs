@@ -76,7 +76,18 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/icon-192x192.png',
+    image: 'img/cartoon-en.png',// ✅ 소셜 미리보기용 대표 이미지
+    metadata: [
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:title', content: 'X-FILE AI | Filings Insight' },
+      { name: 'twitter:description', content: 'Global Disclosure Intelligence at a Glance' },
+      { name: 'twitter:image', content: 'https://docs.x-file.ai/img/cartoon-en.png' },
+
+      { property: 'og:type', content: 'website' },
+      { property: 'og:title', content: 'X-FILE AI | Filings Insight' },
+      { property: 'og:description', content: 'Global Disclosure Intelligence at a Glance' },
+      { property: 'og:image', content: 'https://docs.x-file.ai/img/cartoon-en.png' },
+    ],
     navbar: {
       title: 'Filings Insight',
       logo: {
