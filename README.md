@@ -11,6 +11,8 @@ $ yarn
 ### Local Development
 
 ```
+$ pnpm run start 
+
 $ yarn start
 ```
 
