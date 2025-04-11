@@ -92,8 +92,8 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://x-file.ai',
+          label: 'X-FILE',
           position: 'right',
         },
       ],
